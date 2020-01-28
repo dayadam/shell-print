@@ -11,3 +11,7 @@ echo Hello World!
 DATE=$(date)
 echo $DATE >> "log.txt"
 echo $DATE
+
+$(git add .)
+$(git commit -m "commit on $DATE")
+$(git push)
